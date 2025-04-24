@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- First View -->
+        <record id="view_gitlab_runner_token" model="ir.ui.view">
+            <field name="name">GitLab Runner Token</field>
+            <field name="model">ir.ui.view</field>
+            <field name="arch" type="xml">
+                <!-- Reference to the template file using external ID -->
+                <template id="runner_token_ask"/>
+            </field>
+        </record>
+    </data>
+</odoo>
