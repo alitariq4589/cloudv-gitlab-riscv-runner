@@ -8,8 +8,19 @@
             <field name="model">ir.ui.view</field>
             <field name="arch" type="xml">
                 <!-- Reference to the template file using external ID -->
-                <template id="runner_token_ask"/>
+                <template id="runner_token_ask" />
             </field>
         </record>
+
+        <!-- Second View -->
+        <record id="view_runner_creation_successful" model="ir.ui.view">
+            <field name="name">GitLab Runner Creation Successful</field>
+            <field name="model">ir.ui.view</field>
+            <field name="arch" type="xml">
+                <!-- Reference to the template file using external ID -->
+                <template id="runner_creation_complete" />
+            </field>
+        </record>
+
     </data>
 </odoo>

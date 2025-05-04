@@ -7,7 +7,7 @@
                         data-snippet="s_title" data-name="Title" style="background-image: none;">
                         <div class="container s_allow_columns">
                             <h1 style="text-align: center;">
-                                <font style="font-size: 62px;">GitLab Runner Token</font>
+                                <font style="font-size: 62px;">RISC-V GitLab Runner Registration</font>
                             </h1>
                         </div>
                     </section>
@@ -15,7 +15,7 @@
                         data-snippet="s_text_block" data-name="Text" style="background-image: none;">
                         <div class="container s_allow_columns">
                             <p style="text-align: center;">Please enter the GitLab Runner registration token:</p>
-                            <form action="/gitlab-runner/submit-token" method="post" style="text-align: center;">
+                            <form action="/gitlab-runner-result-page" method="post" style="text-align: center;">
                                 <input type="password" id="runner_token" name="runner_token"
                                     placeholder="GitLab Runner Token" style="width: 400px; padding: 10px; margin-bottom: 20px;" required="True"/>
                                 <br/>

@@ -9,6 +9,7 @@
     'depends': ['base'],
     'data': [
         'views/runner_token_ask.xml',
+        'views/runner_creation_complete.xml',
         ],
     'demo': [],
     'installable': True,

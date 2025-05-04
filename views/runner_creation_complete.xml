@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <template id="runner_creation_complete" name="Runner Creation Complete">
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure oe_empty">
+      <section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+        <div class="container s_allow_columns">
+          <h1 style="text-align: center;">
+            <font style="font-size: 62px;">A new runner is created for your GitLab project</font>
+            <br/>
+          </h1>
+        </div>
+      </section>
+      <section class="s_text_block pt40 pb40 o_colored_level" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+        <div class="container s_allow_columns">
+          <p> A RISC-V runner is successfully added to your GitLab project. This runner will expire in 30 days and you will have to request it again.</p>
+  	</div>
+      </section>
+    </div>
+            </t>
+        </template>
+    </data>
+</odoo>
